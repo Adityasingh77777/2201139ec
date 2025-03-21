@@ -4,12 +4,14 @@ const AUTH_URL = 'http://20.244.56.144/test/auth';
 const USERS_URL = 'http://20.244.56.144/test/users';
 
 const credentials = {
+    
         companyName: "IIIT Bhagalpur",
-        clientID: "901375c1-0e19-4ba6-a0be-46b474559eac",
-        clientSecret: "hDMAmzdVOeeCImec",
+        clientID: "483df66f-c8d0-438b-a7b1-728fe246e406",
+        clientSecret: "RlRjZiAkiOfgBqji",
         ownerName: "Aditya Kumar Singh",
         ownerEmail: "aditya.2201139ec@iiitbh.ac.in",
-        rollNo: "2201139ec"
+        rollNo: "2201139ec"
+    
 };
 
 async function getAccessToken() {
